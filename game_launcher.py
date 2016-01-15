@@ -210,4 +210,4 @@ def getStrategy(main_loop):
 def start_game(main_loop):
 
     framework = Framework()
-    framework.start_game(getStrategy(main_loop))
+    framework.start_game(getStrategy(main_loop), True)
